@@ -93,7 +93,7 @@ Example visualizations:
 
 | Algorithm | Example Output |
 |------------|----------------|
-| K-Means | ![KMeans](outputs/kmeans_clusters.png) |
+| K-Means | ![KMeans](https://github.com/Ebrahiminegin67/clustering-project/blob/main/outputs/kmeans_clusters.png) |
 | Agglomerative (Single) | ![Agg Single](outputs/agg_single_clusters.png) |
 | DBSCAN | ![DBSCAN](outputs/dbscan_clusters.png) |
 
