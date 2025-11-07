@@ -1,25 +1,25 @@
-# 🧩 Customer Segmentation using Clustering Algorithms
+#  Customer Segmentation using Clustering Algorithms
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%F0%9F%A6%84-orange?logo=scikitlearn)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-## 📖 Overview
+##  Overview
 This project explores **customer segmentation** using popular clustering algorithms:  
-- 💠 **K-Means Clustering**  
-- 🌿 **Agglomerative Clustering** (Single & Complete Linkage)  
-- 🌌 **DBSCAN**
+-  **K-Means Clustering**  
+-  **Agglomerative Clustering** (Single & Complete Linkage)  
+-  **DBSCAN**
 
 Dimensionality reduction via **PCA (2D visualization)** allows us to see how clusters differ in space.  
 We assess the results using **Silhouette Coefficient**, and optionally **Purity** and **Adjusted Rand Index** (if ground truth exists).
 
 ---
 
-## 📊 Dataset
+##  Dataset
 The project uses the **Mall Customers dataset**.
 
-📂 Path: `data/Mall_Customers.csv`  
-🌐 Public source:  
+Path: `data/Mall_Customers.csv`  
+Public source:  
 [IBM Cust_Segmentation.csv](https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/Cust_Segmentation.csv)
 
 If you don’t have the file locally, the script can **download it automatically** with:
@@ -29,7 +29,7 @@ python -m src.main --download-ibm
 
 ---
 
-## ⚙️ Project Structure
+##  Project Structure
 ```bash
 clustering-project/
 ├── data/
@@ -55,7 +55,7 @@ clustering-project/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 1️⃣ Install dependencies  
 ```bash
@@ -84,10 +84,10 @@ python -m src.main --impute mean --linkages single complete ward
 
 ---
 
-## 📈 Outputs
+## Outputs
 Each algorithm produces:
-- 🖼️ **Cluster visualizations** (saved in `outputs/`)
-- 📑 **Silhouette scores** (`silhouette_scores.csv`)
+-  **Cluster visualizations** (saved in `outputs/`)
+-  **Silhouette scores** (`silhouette_scores.csv`)
 
 Example visualizations:
 
@@ -99,7 +99,7 @@ Example visualizations:
 
 ---
 
-## 🧠 Key Learnings
+##  Key Learnings
 - Difference between partition-based (K-Means) and density-based (DBSCAN) methods  
 - How distance metrics affect Agglomerative Clustering  
 - PCA for high-dimensional visualization  
@@ -107,10 +107,10 @@ Example visualizations:
 
 ---
 
-## ✨ Author
-👩‍💻 **Negin Ebrahimi**  
-🎓 Master’s Student | Data Science Enthusiast  
-📬 [GitHub Profile](https://github.com/Ebrahiminegin67)
+##  Author
+ **Negin Ebrahimi**  
+ Master’s Student | Data Science Enthusiast  
+ [GitHub Profile](https://github.com/Ebrahiminegin67)
 
 ---
-⭐ *If you like this project, give it a star on GitHub!* 🌟
+ *If you like this project, give it a star on GitHub!* 
